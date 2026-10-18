@@ -5,6 +5,9 @@
 
 name: Deploy to GitHub Pages
 
+permissions:
+  contents: write
+
 # === Khi nào pipeline chạy? ===
 on:
   push:
